@@ -1,0 +1,10 @@
+*{
+    font-family: Nunito sans;
+}
+
+.text-success {
+    color: #1EC15F !important;
+}
+.text-danger {
+    color:#FF5B37 !important;
+}

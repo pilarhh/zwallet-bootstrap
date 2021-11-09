@@ -1,0 +1,12 @@
+.row {
+    height: 100vh;
+}
+.col.left {
+    background: url(../img/Mask\ Group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:hover {
+    background-color: #6379f4;
+    color: #ffffff;
+}

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flow-transfer-page.css">
+    <title>Home page</title>
+  </head>
+
+  <body>
+    <div class="d-flex flex-column wrapper-home">
+      <header class="header d-flex justify-content-between p-5 mx-3">
+        <div class="d-none d-md-block brand text-primary fw-bold">Zwallet</div>
+        <div class="navbar">
+          <img src="./img/Group 31.svg" alt="">
+          <div class="user-info mx-3">
+            <div class="fw-bold">Robert Chandler</div>
+            <span>+62 8139 3877 7946</span>
+          </div>
+          <img src="./img/bell.svg" alt="">
+        </div>
+      </header>
+        <div class="container h-100 d-flex">
+          <aside class="d-none d-md-flex flex-column justify-content-between p-3 sidebar me-3 shadow-sm rounded">
+            <div class="menu">
+              <div class="icon mb-4">
+                <img src="./img/grid-blue.svg" alt="">
+                <span class="ms-3 text-primary">Dashboard</span>
+              </div>
+              <a href="transfer.html" class="icon text-dark text-decoration-none">
+                <img src="./img/arrow-up.svg" alt="">
+                <span class="ms-3">Transfer</span>
+              </a>
+              <div class="icon mt-4">
+                <img src="./img/plus.svg" alt="">
+                <span class="ms-3">Top Up</span>
+              </div>
+              <div class="icon mt-4">
+                <img src="./img/user.svg" alt="">
+                <span class="ms-3">Profile</span>
+              </div>
+            </div>
+            <div class="logout">
+              <a href="login.html" class="text-dark text-decoration-none">
+                <img src="./img/log-out.svg" alt="">
+                <span class="ms-3">Log Out</span>
+              </a>
+            </div>
+          </aside>
+          <div class="content flex-fill">
+            <div class="d-flex justify-content-between banner bg-primary p-3 mt-3">
+              <div class="col text-white">
+                <p class="fw-lighter">Balance</p>
+                <h2 class="fw-bold fs-2">Rp120.000</h2>
+                <p class="fw-lighter mt-3">+62 813-9387-7946</p>
+              </div>
+              <div class="d-flex justify-content-between d-none d-md-block">
+                <button class="btn rounded p-2 text-white border-white btn-transfer w-75">
+                  <img src="./img/arrow-up-2.svg" alt="">
+                  <span>Transfer</span>
+                </button>
+                <button class="btn rounded p-2 text-white border-white btn-transfer w-75 mt-4">
+                  <img src="./img/plus-2.svg" alt="">
+                  <span>Top Up</span>
+                </button>
+              </div>
+            </div>
+            <div class="my-4 d-md-none d-block col flex-grow-0 d-flex justify-content-around">
+              <a href="transfer.html" class="btn rounded p-2 border-0 btn-transfer">
+                <img src="./img/arrow-up-2.svg" alt="">
+                <span>Transfer</span>
+              </a>
+              <a href="transfer.html" class="btn rounded p-2 border-0 btn-transfer">
+                <img src="./img/plus-2.svg" alt="">
+                <span>Top Up</span>
+              </a>
+            </div>
+            <div class="row g-0 main-content mt-3">
+              <div class="d-none d-md-block col me-3 shadow-sm rounded">
+                <div class="row g-0">
+                  <div class="col">
+                    <div class="income">
+                      <img src="./img/arrow-down-green.svg" alt="">
+                      <p class="text-charts fw-normal">Income</p>
+                      <h6 class="fw-bold">Rp2.120.000</h6>
+                  </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <img src="./img/arrow-up-red.svg" alt="">
+                    <p class="text-charts fw-normal">Expense</p>
+                    <h6 class="fw-bold">Rp1.560.000</h6>
+                  </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                  <img class="" src="./img/graphic.svg" alt="">
+                </div>
+              </div>
+              <section class="col shadow-sm rounded p-2">
+                  <section class="d-flex justify-content-between">
+                    <h5 class="transaction-title fw-bold">Transaction History</h5>
+                    <p><a class="text-decoration-none" href="history.html">See all</a></p>
+                </section>
+                <div class="col mt-3">
+                  <figure class="d-flex justify-content-between">
+                    <div class="img-caption d-flex">
+                      <img class="samuel-icon" src="./img/samuel.svg" alt="">
+                      <figcaption class="ms-4 1h-base"></figcaption>
+                          Samuel Suhi<br>Transfer
+                      </figcaption>
+                    </div>
+                    <figcaption class="text-success fw-bold">+Rp50.000</figcaption>
+                </figure>
+                <figure class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <img class="samuel-icon" src="./img/netflix.svg" alt="">
+                      <figcaption class="ms-4 1h-base">
+                          Netflix<br>Subscription
+                      </figcaption>
+                    </div>
+                    <figcaption class="text-danger fw-bold">-Rp149.000</figcaption>
+                </figure>
+                <figure class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <img class="samuel-icon" src="./img/christine.svg" alt="">
+                      <figcaption class="ms-4 1h-base">
+                          Christine Mar...<br>Transfer
+                      </figcaption>
+                    </div>
+                    <figcaption class="text-success fw-bold">+Rp150.000</figcaption>
+                </figure>
+                <figure class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <img class="samuel-icon" src="./img/adobe.svg" alt="">
+                      <figcaption class="ms-4 1h-base">
+                          Adobe Inc.<br>Subscription
+                      </figcaption>
+                    </div>
+                    <figcaption class="text-danger fw-bold">-Rp249.000</figcaption>
+                </figure>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="bg-primary footer d-flex justify-content-around p-3 d-none d-md-flex">
+        <div class="text-white">2020 Zwallet. All right reserved.</div>
+        <div class="text-white">
+          <span class="text-white mx-3">+62 5637 8882 9901</span>
+          <span>contact@zwallet.com</span>
+        </div>
+
+      </footer>
+    </div>
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
